@@ -23,7 +23,7 @@ h1{
 h2{
     font-size: 1.4rem;
     margin-bottom: 4px;
-    text-align: justify;
+    text-align: start;
 }
 
 hr{
@@ -66,12 +66,12 @@ img{
 }
 
 
-.contenedorImg{
+.containerImg{
     display: flex;
     justify-content: end;
 }
 
-.bienvenida{
+.welcome{
     font-weight: 300;
     margin-bottom: 28px;
     color: gray;
@@ -79,7 +79,7 @@ img{
     
 }
 
-.contenedorLogin{
+.containerLogin{
     width: 30%;
     margin: auto;
     margin-top: 6%;
@@ -90,13 +90,13 @@ img{
     box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.022);
 }
 
-.registrarse{
+.register{
     font-size: 0.6rem;
     text-align: center;
     color: gray;
 }
 
-.registrarse a{
+.register a{
     font-size: 0.6rem;
     text-align: center;
     color: rgb(0, 0, 0);
