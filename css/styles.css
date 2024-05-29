@@ -15,23 +15,92 @@ body{
 
 h1{
     text-align: center;
-    font-size: 2.9rem;
+    font-size: 2.8rem;
     font-weight: 900;
     margin-bottom: 30px;
 }
 
 h2{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    margin-bottom: 4px;
+    text-align: justify;
+}
+
+hr{
+    margin-bottom: 28px;
+    border-color: rgba(128, 128, 128, 0.13);
+}
+
+form{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+input{
+    border-radius: 5px;
+    height: 37px;
+    margin: auto;
+    border: 1px solid rgba(128, 128, 128, 0.233);
+    margin-bottom: 10px;
+    margin-top: 15px;
+    width: 100%;
+    
+}
+
+button{
+    height: 40px;
+    background-color: #367bf5;
+    font-size: 0.6rem;
+    color: white;
+    margin-bottom: 30px;
+    border-radius: 2.5px;
+    border: none;
+}
+
+label{
+    font-size: 0.85rem;
+}
+img{
+    width: 9%;
+    margin-right: 25%;
+}
+
+
+.contenedorImg{
+    display: flex;
+    justify-content: end;
+}
+
+.bienvenida{
+    font-weight: 300;
+    margin-bottom: 28px;
+    color: gray;
+    font-size: 0.7rem;
+    
 }
 
 .contenedorLogin{
-    width: 36%;
+    width: 30%;
     margin: auto;
     margin-top: 6%;
     height: auto;
     background-color: #ffffff;
-    border-radius: 15px;
-    padding: 33px;
+    border-radius: 9px;
+    padding: 37px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.022);
 }
 
+.registrarse{
+    font-size: 0.6rem;
+    text-align: center;
+    color: gray;
+}
+
+.registrarse a{
+    font-size: 0.6rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 500;
+}
 
